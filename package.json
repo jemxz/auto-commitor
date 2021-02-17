@@ -1,0 +1,24 @@
+{
+  "name": "auto-commitor",
+  "version": "1.0.0",
+  "description": "auto commites to git repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemxz/auto-commitor.git"
+  },
+  "keywords": [
+    "java",
+    "script",
+    "electron"
+  ],
+  "author": "Jemail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jemxz/auto-commitor/issues"
+  },
+  "homepage": "https://github.com/jemxz/auto-commitor#readme"
+}
