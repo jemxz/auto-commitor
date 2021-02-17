@@ -2,9 +2,10 @@
   "name": "auto-commitor",
   "version": "1.0.0",
   "description": "auto commites to git repo",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/jemxz/auto-commitor/issues"
   },
-  "homepage": "https://github.com/jemxz/auto-commitor#readme"
+  "homepage": "https://github.com/jemxz/auto-commitor#readme",
+  "devDependencies": {
+    "electron": "^11.2.3",
+    "electron-reload": "^1.5.0",
+    "electron-reloader": "^1.2.0"
+  }
 }
