@@ -28,7 +28,7 @@ var cmd=require('node-cmd');
     console.log("task complete ...");
  }
 
-runForever()
+// runForever()
 
 // setInterval(runForever, 60000)
 // setInterval(runForever, 43200000)
