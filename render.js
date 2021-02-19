@@ -1,5 +1,6 @@
 var fs = require('fs');
 var cmd=require('node-cmd');
+const Swal = require('sweetalert2')
 
 
 
@@ -24,8 +25,9 @@ var cmd=require('node-cmd');
     cmd.runSync('git add .');
     cmd.runSync('git commit -m "First Message"');
     cmd.runSync('git push origin master')
+    Swal.fire('Success')
 
-    console.log("task complete ...");
+    
  }
 
 // runForever()
