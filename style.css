@@ -98,3 +98,12 @@
     z-index: -9;
     margin: 30px;
   }
+  #bootstrap-alert {
+      z-index : 30;
+      position:absolute;
+      top:0;
+      right:0;
+  }
+  p{
+      font-size: 25px;
+  }
