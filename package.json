@@ -29,8 +29,6 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
-    "node-cmd": "^4.0.0",
-    "sweetalert2": "^10.15.5",
-    "vex-js": "^4.1.0"
+    "node-cmd": "^4.0.0"
   }
 }

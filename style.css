@@ -104,6 +104,12 @@
       top:0;
       right:0;
   }
+  #bootstrap-alertFail {
+    z-index : 30;
+    position:absolute;
+    top:0;
+    right:0;
+  }
   p{
       font-size: 25px;
   }
